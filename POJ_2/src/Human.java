@@ -2,6 +2,7 @@
 * This is Human class - it takes getters and setters and has parameters such as:
 * name, age, height, weight, gender, student's index number and feet size
 * It also has a method calles isMale() which check, if human is female or male and returns appropriate output
+* Author: Wojtek
 * */
 
 import java.lang.String;
