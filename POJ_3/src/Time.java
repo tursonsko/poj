@@ -58,8 +58,7 @@ public class Time {
     }
 
     public String toString() {
-        return String.format("%02d", this.getHour()) + ":" + String.format("%02d", this.getMinute()) + ":" +
-                String.format("%02d", this.getSecond());
+        return String.format("%02d:%02d:%04d", this.getDay(), this.getMonth(), this.getYear());
     }
 
     public Time nextSecond() {
