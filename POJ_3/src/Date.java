@@ -58,8 +58,7 @@ public class Date {
     }
 
     public String toString() {
-        return String.format("%02d", this.getDay()) + "/" + String.format("%02d", this.getMonth()) + "/" +
-                String.format("%04d", this.getYear());
+        return String.format("%02d/%02d/%04d", this.getDay(), this.getMonth(), this.getYear());
     }
 
 }
