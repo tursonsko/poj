@@ -44,10 +44,10 @@ public class Account {
         return this.balance;
     }
 
-    public int transferTo(Account account, int amount) {
+    public int transferTo(Account another, int amount) {
         if (amount <= this.balance ) {
             this.balance -= amount;
-            account.balance += amount;
+            another.balance += amount;
         } else
             System.out.println("Amount exceeded balance");
         return this.balance;
